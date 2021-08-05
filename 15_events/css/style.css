@@ -1,0 +1,55 @@
+@import url(reset.css);
+
+@keyframes go{
+	from{
+		top: 0px;
+		left: 0px;
+	}
+	to{
+		top: 0px;
+		left: calc(100vw - 100px);
+	}
+}
+.page{
+	background-color: lightgray;
+	height: 2000px;
+}
+.outer{
+	height: 1000px;
+}
+.bouter{
+	display: flex;
+}
+button{
+	background-color: blue;
+	color: white;
+	font: bold 25px Times New Roman;
+	margin: 20px auto;
+	width: 400px;
+	height: 100px;
+}
+
+
+.ball{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	border-radius: 100%;
+	animation: go 1s linear infinite alternate;
+	animation-play-state: paused;
+}
+
+.outer2{
+	display: flex;
+	height: 1000px;
+}
+p{
+	width: 500px;
+	margin: auto;
+	padding: 40px;
+	background-color: white;
+	box-shadow: 0 0 5px black;
+	transition: 0.5s;
+	opacity: 0.5;
+}
