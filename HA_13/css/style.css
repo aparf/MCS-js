@@ -1,0 +1,26 @@
+@import url(reset.css);
+
+div{
+	height: 100px;
+	margin: 50px 100px;
+}
+
+p{
+	font-style: italic;
+	margin-left: 100px;
+	padding-top: 50px;
+}
+.Bitcoin{
+	width: 100px;
+	background-color: orange;
+}
+
+.Ethereum{
+	width: 100px;
+	background-color: plum;
+}
+
+.Litecoin{
+	width: 100px;
+	background-color: blue;
+}
